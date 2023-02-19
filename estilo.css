@@ -1,0 +1,177 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FEF2FF ;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background:#E6B0AA   ;
+    width: 100%;
+    text-align: center;
+   
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    display: block;
+
+}
+
+
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #F39C12 ;
+    transition: 1s;
+  
+}
+ header h1{
+    text-align: center;
+    background-color: #D1B0DE ; 
+    
+}
+#presentacion h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #D1B0DE;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+#presentacion{
+    width: 80%;
+}
+#presentacion h1 {
+    text-align: center;
+    background: none;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border: 7px solid #E6B0AA   ;
+    
+}
+footer{
+    text-align: center;
+    background: #D1B0DE;
+    margin: 80px;
+    
+    
+    
+    
+}
+
+/*INFORMACION PERSONAL*/
+
+.content li {
+text-align: center;
+}
+ul{
+    list-style:  none;
+}
+i{
+    padding: 5px;
+}
+a button{
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+.acerca p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Itim', cursive;
+    color: #3498DB ;
+}
+.acerca h1{
+    font-size: 80px;
+    text-align: center;
+    border: #D1B0DE 3px solid;
+    color: #FDFEFE ;
+    background-color: #E6B0AA;
+}
+.acerca button{
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    
+    background-color:#E6B0AA ;
+    margin: right auto;
+    margin-left: right auto;
+    border: #D1B0DE 3px solid;
+}
+* {
+    box-sizing: border-box;
+}
+.menu {
+    
+    width: 25%;
+    float: left;
+    
+}
+.main {
+    width: 50%;
+    padding: 50px;
+    
+}
+.aside {
+    width: 25px;
+    float: right;
+}
+
+@media (max-width: 548px){
+    #presentacion h2 {
+        
+        
+        float: none;
+        text-align: center;
+        margin-top: 230px;
+
+        
+    }
+
+    .menu {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    
+}
+
+h1 {
+    height: 80px;
+    line-height: 80px;
+    font-family: sans-serif;
+}
+
+#mensaje3 , #mensaje2 , #mensaje {
+    font-size: 40px;
+    color: #FF0202;
+    padding: 7px;
+}
